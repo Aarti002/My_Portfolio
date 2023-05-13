@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import "./index.css";
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import { About } from "./About";
-import { Projects } from "./Projects";
-import { Skills } from "./Skills";
-import {Contact} from "./Contact"
+import "../index.css";
 
 
 export class NavBar extends Component {

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import ved1 from "./projects/pro1.webm";
-import ved2 from "./projects/pro2.webm";
-import img1 from "./projects/pro3.png";
-import img2 from "./projects/pro4.png";
+import ved1 from "../props/pro1.webm";
+import ved2 from "../props/pro2.webm";
+import img1 from "../props/pro3.png";
+import img2 from "../props/pro4.png";
 import { FaCodeBranch, FaStackOverflow } from "react-icons/fa";
 
 export class Projects extends Component {

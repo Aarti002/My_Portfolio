@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./index.css";
-import pic from "./mine3.jpeg";
+import "../index.css";
+import pic from "../props/mine3.jpeg";
 
 export class About extends Component {
   render() {

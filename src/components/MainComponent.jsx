@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import "./index.css"
+import "../index.css"
 
 export class MainContent extends Component{
     state={title:"Customers",count:5};

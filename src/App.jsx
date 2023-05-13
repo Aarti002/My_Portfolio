@@ -1,13 +1,11 @@
 import React from "react";
 import { Component } from "react";
-import { NavBar } from "./NavBar";
+import { NavBar } from "./components/NavBar";
 import { MainContent } from "./MainComponent";
-import { About } from "./About";
-import { Projects } from "./Projects";
-import { Skills } from "./Skills";
-import {Contact} from "./Contact"
-import Cards from "./Cards";
-import { useState } from "react";
+import { About } from "./components/About";
+import { Projects } from "./components/Projects";
+import { Skills } from "./components/Skills";
+import {Contact} from "./components/Contact";
 
 function App() {
   

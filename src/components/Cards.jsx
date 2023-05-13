@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./index";
-import "./flip-transition.css";
+import "../index.css";
+import "../flip-transition.css";
 
 function Cards({onClick}) {
     return (

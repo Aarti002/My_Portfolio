@@ -29,10 +29,7 @@ text-decoration-thickness: 3px;
   background-color: white;
   display: flex;
   flex-direction: row;
-  
   text-align: left;
-
-  
 }
 
 .intro_card{
@@ -43,7 +40,6 @@ text-decoration-thickness: 3px;
   color: rgb(162, 168, 168);
   background-color: white;
   border: 3rem solid rgb(187, 135, 100);
-
 }
 
 .links a{
