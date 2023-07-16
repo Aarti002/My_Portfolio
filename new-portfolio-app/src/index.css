@@ -1,0 +1,336 @@
+
+/*navbar*/
+.navigation a{
+  padding: .2rem;
+  margin: .3rem;
+  font-size: 1.5rem;
+text-decoration-thickness: 1rem;
+}
+
+.highlight{
+    background-color: rgb(33, 46, 41);
+}
+
+.apps{
+  background-color: rgb(198, 197, 202);
+  text-decoration-style: wavy;
+}
+
+/*About page*/
+#about{
+  background-color: #dfdfe2;
+}
+
+.image_mine{
+  margin:2rem 3rem;
+  padding: 1rem;
+  width: 25rem;
+  height: 40rem;
+  border: 3rem solid rgb(219, 214, 214);
+  box-shadow: 4px 4px 10px #888888;
+}
+
+.card_wrap{
+  padding: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.intro_card{
+  width: 30rem;
+  height: 40rem;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  color: rgb(162, 168, 168);
+  background-color: white;
+  border: 3rem solid rgb(209, 212, 212);
+  box-shadow: 4px 4px 10px #888888;
+}
+
+
+
+/*Project page*/
+#projects{
+  background-color: #cacace;
+}
+
+.row{
+  display: flex;
+}
+
+.column{
+  flex: 50%;
+  padding: auto;
+}
+
+.item{
+  display: inline-block;
+  border: 4px solid white;
+  margin-bottom: 2rem;
+}
+
+.item span{
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+/*skill page*/
+#skills{
+  background-color: #9c9ca5;
+}
+
+.more_about{
+  background-color: rgb(198, 197, 202);
+}
+
+h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+.center
+{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.property-card
+{
+  margin: 2rem;
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  box-shadow: .5rem .5rem .3rem #5b5b5c;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+}
+
+.property-image
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../src/props/languages.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image-1
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../src/props/library.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image-2
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../src/props/tools.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image-3
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../src/props/database.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-description
+{
+  background-color: #a0a0a8;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18em;
+}
+
+.property-card:hover .property-image-1
+{
+  height:18em;
+}
+
+.property-card:hover .property-image-2
+{
+  height:18em;
+}
+
+.property-card:hover .property-image-3
+{
+  height:18em;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
+
+.property-image-title
+{
+text-align:center;
+position:Relative;
+top:30%;
+opacity:0;
+transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+color:black;
+font-size:1.2em;
+}
+
+.property-card:hover .property-image-title
+{
+opacity:1;
+}
+
+/*Experience section*/
+
+#experience{
+  background-color: rgb(187, 185, 189);
+  padding: 1.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.amazon{
+  background-color: white;
+  box-shadow: .3rem .3rem .5rem gray;
+  height: 20rem;
+  width: 100%;
+  margin: 1.2rem;
+  padding: 0.3rem;
+}
+
+.amazon_project{
+  width: 100%;
+  height: 13rem;
+}
+
+.amazon_project p{
+  color: black;
+}
+
+.amazon .amazon_logo{
+  height: 2rem;
+  width: 100%;
+  margin: 1rem;
+}
+
+.poolit{
+  display: flex;
+  background-color: white;
+  box-shadow: .3rem .3rem .5rem gray;
+  height: 15rem;
+  width: 100%;
+  margin: 1.2rem;
+  padding: 1rem;
+}
+
+
+.paleru{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: .3rem .3rem .5rem gray;
+  height: 20rem;
+  width: 100%;
+  margin: 1.2rem;
+  padding: 1rem;
+}
+
+.paleru_project{
+  width: 100%;
+  height: 20rem;
+}
+
+.paleru_logo img{
+  height: 12rem;
+  width: 10rem;
+}
+
+/*contact page*/
+
+#contact_me{
+  background-color: rgb(123, 123, 129);
+}
+
+.contact p{
+  text-decoration: underline;
+}
