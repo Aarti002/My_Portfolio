@@ -1,112 +1,102 @@
 import React, { Component } from "react";
-import { FaChevronLeft, FaChevronRight, FaStackOverflow } from "react-icons/fa";
-import { programming_language } from "./Skill_data";
-import { Libraries } from "./Skill_data";
-import { tools } from "./Skill_data";
-import { Database } from "./Skill_data";
+
 
 export class Skills extends Component {
   render() {
     return (
-      <section id="skills">
-        <div className="container px-3 py-10 mx-auto text-center lg:px-30">
+      <div id="skills">
+        <div className="container mx-auto text-center">
           <div className="upper_skill">
             <h1>
-              <FaStackOverflow size="40px" color="white" /> Skill Stack
+            Skill Stack
             </h1>
             <p>
-              Started my coding journey as competitive programmer, but till this
-              date have learned many frameworks ,frontend, backend, databases
-              and will continue to learn.
+              Started as Competetive Programmer since first year of my college, as I continued exploring multiple 
+              programming Languages came across multiple framework and libraries, worked on couple of full-stack project and  
+              DSA is something which every software engineer has to do by choice or by interest.
             </p>
           </div>
-          <div className="skill_sets">
-            <div className="category_wrap">
-              <div className="category ">
-                <span>
-                  <h4>P.Languages</h4>
-                  <br />
-                  <FaChevronLeft size="20px" color="white" />
-                  Skill, YOE, Rate
-                  <FaChevronRight size="20px" color="white" />
-                </span>
-                {programming_language.map((skill) => (
-                  <div key={skill.id}>
-                    <div className="content my-2">
-                      <span>{skill.title}&nbsp;&nbsp;&nbsp;</span>
-                      <span>{skill.YOE}&nbsp;&nbsp;&nbsp;</span>
-                      <span>{skill.Rate}&nbsp;&nbsp;&nbsp;</span>
+            <div class="center">
+              <div class="property-card">
+                  <div class="property-image">
+                    <div class="property-image-title">
+                      <h5>Programming Languages</h5>
                     </div>
                   </div>
-                ))}
+                <div class="property-description">
+                  <h5>Programming Languages</h5>
+                  <p>
+                    <span>C/C++</span><br/>
+                    <span>Python</span><br/>
+                    <span>Java</span><br/>
+                    <span>Typescript</span><br/>
+                    <span>Javascript</span><br/>
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="category_wrap">
-              <div className="category ">
-                <span>
-                  <h4>Lib/Framework</h4>
-                  <br />
-                  <FaChevronLeft size="20px" color="white" />
-                  Skill, YOE, Rate
-                  <FaChevronRight size="20px" color="white" />
-                </span>
-                {Libraries.map((skill) => (
-                  <div key={skill.id}>
-                    <div className="content my-2">
-                      <span>{skill.title}&nbsp;&nbsp;&nbsp;</span>
-                      <span>{skill.YOE}&nbsp;&nbsp;&nbsp;</span>
-                      <span>{skill.Rate}&nbsp;&nbsp;&nbsp;</span>
+              <div class="property-card">
+                  <div class="property-image-1">
+                    <div class="property-image-title">
+                      <h5>Libraries/<br/>Frameworks</h5>
                     </div>
                   </div>
-                ))}
+                <div class="property-description">
+                  <h5>Libraries/<br/>Frameworks</h5>
+                  <p>
+                    <span>ReactJs</span><br/>
+                    <span>Django</span><br/>
+                    <span>Bootstrap</span><br/>
+                    <span>Nodejs</span><br/>
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="category_wrap">
-              <div className="category ">
-                <span>
-                  <h4>Tools</h4>
-                  <br />
-                  <FaChevronLeft size="20px" color="white" />
-                  Skill, YOE, Rate
-                  <FaChevronRight size="20px" color="white" />
-                </span>
-                {tools.map((skill) => (
-                  <div key={skill.id}>
-                    <div className="content my-2">
-                      <span>{skill.title}&nbsp;&nbsp;&nbsp;</span>
-                      <span>{skill.YOE}&nbsp;&nbsp;&nbsp;</span>
-                      <span>{skill.Rate}&nbsp;&nbsp;&nbsp;</span>
+              <div class="property-card">
+                  <div class="property-image-2">
+                    <div class="property-image-title">
+                      <h5>Tools/<br/>Platforms</h5>
                     </div>
                   </div>
-                ))}
+                <div class="property-description">
+                  <h5>Tools/<br/>Platforms</h5>
+                  <p>
+                    <span>AWS</span><br/>
+                    <span>Google Analytics</span><br/>
+                    <span>Postman</span><br/>
+                    <span>Docker</span><br/>
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="category_wrap">
-              <div className="category ">
-                <span>
-                  <h4>Databases</h4>
-                  <br />
-                  <FaChevronLeft size="20px" color="white" />
-                  Skill, YOE, Rate
-                  <FaChevronRight size="20px" color="white" />
-                </span>
-                {Database.map((skill) => (
-                  <div key={skill.id}>
-                    <div className="content my-2">
-                      <span>{skill.title}&nbsp;&nbsp;&nbsp;</span>
-                      <span>{skill.YOE}&nbsp;&nbsp;&nbsp;</span>
-                      <span>{skill.Rate}&nbsp;&nbsp;&nbsp;</span>
+              <div class="property-card">
+                  <div class="property-image-3">
+                    <div class="property-image-title">
+                      <h5>Database</h5>
                     </div>
                   </div>
-                ))}
+                <div class="property-description">
+                  <h5>Database</h5>
+                  <p>
+                    <span>MySQL</span><br/>
+                    <span>Postgresql</span><br/>
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+            <div className="more_about">
+              <div className="about_blog">
+                <p>As I have already mentioned about technical blog writing, would really 
+                  appreciate if you could spend a couple of minutes reading a few of my blogs.
+                  Also, please leave your review in the comment section being a beginner in content writing 
+                  it will really help me to improve my writing skill. 
+                  <br/><b>Please follow me on medium: https://medium.com/@aartikumarisingh3002</b>
+                </p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+      </div>
     );
   }
 }

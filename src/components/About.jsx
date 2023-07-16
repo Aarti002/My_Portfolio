@@ -5,45 +5,49 @@ import pic from "../props/mine3.jpeg";
 export class About extends Component {
   render() {
     return (
-      <section id="about">
-       
+      <div id="about">
         <div className="container">
           <div className="card_wrap">
-          <img
+            <img
               className="image_mine object-cover object-center"
               alt="hero"
               src={pic}
             />
             <div className="intro_card">
-            <h3>
-              Hello people,<br/> </h3>
-              <h5>I'm Aarti!
-              <br/>I love to work on amazing
-              web applications.
-            </h5>
-            <p className="mb-8 leading-relaxed">
-              Lately,I have been playing around with django(python) from the past couple of years
-              as backend developer, and to give that skills a professional touch I have done couple 
-              of internships as full-stack developer.
-              Looking forward to great learning experience in future :)
-               
-            </p>
-            <div className="links">
-              <a href="#contact">
-                Work With Me
-              </a>
-              <br/>
-              <a href="#projects">
-                See My Past Work
-              </a>
+              <h3>
+                Hello people!
+                <br />{" "}
+              </h3>
+              <h5>
+                Myself Aarti, I'm a
+                <br />
+                Good Human,
+                <br />
+                Hardworker,
+                <br />
+                Lifetime Learner,
+                <br />
+                Software Engineer,
+                <br />
+                Open Source Contributor,
+                <br />
+                Technical Blog writer,
+                <br />
+                and Ukulele Player
+              </h5>
+              <p className="mb-8 leading-relaxed">
+                In a nutshell, I'm a competitive programmer turned into
+                full-stack web developer. Trying to learn something new
+                everyday. Exploring new stuff everyday. Recently got my hands
+                dirty with technical blog writing, and the good news is I'm
+                liking it. Lately, I have been reading many system design
+                articles which make me realise that there are so many things to
+                learn in this field.
+              </p>
             </div>
-            </div>
-            </div>
-            
           </div>
-          
-        
-      </section>
+        </div>
+      </div>
     );
   }
 }
