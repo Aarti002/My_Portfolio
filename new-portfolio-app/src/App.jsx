@@ -1,10 +1,10 @@
 import React from "react";
-import { NavBar } from "../src/components/NavBar";
-import { About } from "../src/components/About";
-import { Projects } from "../src/components/Projects";
-import { Skills } from "../src/components/Skills";
-import { Contact } from "../src/components/Contact";
-import { Experience } from "../src/components/Experience";
+import { NavBar } from "./components/NavBar";
+import { About } from "./components/About";
+import { Projects } from "./components/Projects";
+import { Skills } from "./components/Skills";
+import { Contact } from "./components/Contact";
+import { Experience } from "./components/Experience";
 
 function App() {
   return (
