@@ -28,7 +28,7 @@ export class NavBar extends Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">
+                <a className="nav-link" href="#experience">
                   Experience
                 </a>
               </li>
