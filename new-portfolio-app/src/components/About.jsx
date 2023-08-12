@@ -1,53 +1,72 @@
 import React, { Component } from "react";
 import "../index.css";
 import pic from "../props/mine3.jpeg";
+import Card from "react-bootstrap/Card";
+import Row from "react-bootstrap/Row";
+import { Container } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
 
 export class About extends Component {
   render() {
     return (
-      <div id="about">
-        <div className="container">
-          <div className="card_wrap">
-            <img
-              className="image_mine object-cover object-center"
-              alt="hero"
-              src={pic}
-            />
-            <div className="intro_card">
-              <h3>
-                Hello people!
-                <br />{" "}
-              </h3>
-              <h5>
-                Myself Aarti, I'm a
+      <Container id="aarti">
+        <div className="container px-2 py-15 mx-3 text-center">
+          <Row>
+            <Card style={{ width: "25vw", height: "38vw", margin: "1vw" }}>
+              <Card.Body>
+                <Image
+                  variant="top"
+                  src={pic}
+                  fluid
+                  style={{ width: "80vw", height: "35vw" }}
+                />
+              </Card.Body>
+            </Card>
+            <Card className="introBox">
+              <Card.Body>
                 <br />
-                Good Human,
+                <Card.Subtitle className="mb-6 text-muted about">
+                  <b>HELLO PEOPLE,</b>
+                  <br />
+                  Myself Aarti, I'm a Good Human, Hardworker, Lifetime Learner,
+                  Software Engineer, Open Source Contributor, Technical Blog
+                  writer, and Ukulele Player
+                </Card.Subtitle>
                 <br />
-                Hardworker,
+                <Card.Text>
+                  In a nutshell, I'm a competitive programmer turned into
+                  full-stack web developer. Trying to learn something new
+                  everyday. Exploring new stuff everyday. Recently got my hands
+                  dirty with technical blog writing, and the good news is, I'm
+                  enjoying it. Lately, I have been reading many system design
+                  articles which made me realise, there are so many things
+                  to learn in this field.
+                  <br />
+                </Card.Text>
+                <b>Email: </b>
+                <span className="px-2 py-12">
+                  aartikumarisingh3002@gmail.com
+                </span>
                 <br />
-                Lifetime Learner,
+                <b>Linkedin: </b>
+                <span className="px-2 py-12">
+                  <a
+                    href="https://www.linkedin.com/in/linkinurl-aarti-k/"
+                    target="_blank"
+                  >
+                    Linkedin
+                  </a>
+                </span>
                 <br />
-                Software Engineer,
+                <b>Contact: </b>
+                <span className="px-2 py-12">+91-6206835290</span>
                 <br />
-                Open Source Contributor,
-                <br />
-                Technical Blog writer,
-                <br />
-                and Ukulele Player
-              </h5>
-              <p className="mb-8 leading-relaxed">
-                In a nutshell, I'm a competitive programmer turned into
-                full-stack web developer. Trying to learn something new
-                everyday. Exploring new stuff everyday. Recently got my hands
-                dirty with technical blog writing, and the good news is I'm
-                liking it. Lately, I have been reading many system design
-                articles which make me realise that there are so many things to
-                learn in this field.
-              </p>
-            </div>
-          </div>
+              </Card.Body>
+            </Card>
+          </Row>
         </div>
-      </div>
+      </Container>
     );
   }
 }
+export default About;

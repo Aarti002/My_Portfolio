@@ -2,20 +2,17 @@ import React from "react";
 import { NavBar } from "./components/NavBar";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
-import { Skills } from "./components/Skills";
-import { Contact } from "./components/Contact";
+import { Blogs } from "./components/Blogs";
 import { Experience } from "./components/Experience";
 
 function App() {
   return (
-    //const [showFront, setShowFront] = useState(true);
     <main className="apps text-gray-400 bg-gray-900 body-font">
-      <NavBar />
+     < NavBar />
       <About />
       <Projects />
       <Experience />
-      <Skills />
-      <Contact />
+      <Blogs />
     </main>
   );
 }
