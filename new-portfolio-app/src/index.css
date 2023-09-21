@@ -59,7 +59,6 @@ text-decoration-thickness: 1rem;
 /*Project page*/
 .item{
   display: inline-block;
-  border: 1vw solid white;
   margin-bottom: 1vw;
 }
 

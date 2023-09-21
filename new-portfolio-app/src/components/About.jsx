@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../index.css";
-import pic from "../props/mine3.jpeg";
+import pic from "../props/github.jpeg";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import { Container } from "react-bootstrap";
@@ -18,7 +18,7 @@ export class About extends Component {
                   variant="top"
                   src={pic}
                   fluid
-                  style={{ width: "80vw", height: "35vw" }}
+                  style={{ width: "90vw", height: "35vw" }}
                 />
               </Card.Body>
             </Card>

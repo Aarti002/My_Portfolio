@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ved1 from "../props/pro1.webm";
 import ved2 from "../props/pro2.webm";
-import img1 from "../props/pro3.png";
+import img1 from "../props/ohp_ss.png";
 import img2 from "../props/pro4.png";
 import "../index.css";
 
@@ -37,17 +37,29 @@ export class Projects extends Component {
               <div className="item">
                 <img
                   src={img1}
-                  className="px-4 py-4 md-2 thumbnail"
+                  className="px-2 py-2 md-1 thumbnail"
                   alt="project4"
                 />
-                <span>
-                  <a
-                    href="https://github.com/Aarti002/django_student_management_system"
-                    target="_blank"
-                  >
-                    Student-Staff Management
+                <div className="content">
+                  <a href="http://aarti002.pythonanywhere.com/" target="_blank">
+                    Organisation Handling Portal
                   </a>
-                </span>
+                  <p>
+                    <a
+                      href="https://github.com/Aarti002/django_student_management_system"
+                      target="_blank"
+                    >
+                      Github
+                    </a>
+                    <br />
+                    <h6>
+                      {" "}
+                      To login on application use <b>
+                        admin@gmail.com
+                      </b> and <b>12345</b> as email and password respectively.
+                    </h6>
+                  </p>
+                </div>
               </div>
             </Col>
             <Col>
